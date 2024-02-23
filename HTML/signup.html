@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="../CSS/signup_design.css" />
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <label id="sign-up-form">
+            Sign Up Form
+        </label>
+        <div id="signup-form-main">
+            <form>
+                <div id="main">
+                    <div id="div" class="no-border padding-custom">
+                        <label> First Name <br /> </label>
+                        <input type="text" placeholder="First Name" /> <br />
+                        <label> Last Name <br /> </label>
+                        <input type="text" placeholder="Last Name" /> <br />
+                        <label> Middle Name <br /> </label>
+                        <input type="text" placeholder="Middle Name" /> <br />
+                        <label> Email <br /> </label>
+                        <input type="email" placeholder="Email" /> <br />
+                        <label> Contact Number <br /> </label>
+                        <input type="text" placeholder="Contact Number" /> <br />
+                    </div>
+                    <div class="no-border padding-custom" id="div">
+                        <label> Gender <br /> </label>
+                        <select name="gender" id="gender" form="genderform">
+                            <br />
+                            <option value="Male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="others">Other</option>
+                        </select>
+                        <br />
+                        <label class="normal-indention"> Address <br /> </label>
+                        <input type="text" placeholder="Address" /> <br />
+                        <label> Birth Date <br /> </label>
+                        <input type="date" /> <br />
+                        <label> Username <br /> </label>
+                        <input type="text" placeholder="Username" /> <br />
+                        <label> Password <br /> </label>
+                        <input type="password" placeholder="Password" /> <br />
+                    </div>
+                </div>
+                <input type="submit" id="register-button" value="Register" />
+            </form>
+        </div>
+    </body>
+</html>

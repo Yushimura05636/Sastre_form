@@ -1,0 +1,107 @@
+#main {
+    width: 100%;
+    height: 500px;
+    display: flex;
+  }
+  
+  #main #div {
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+  }
+
+  #div
+  {
+    border: none;
+  }
+
+  input
+  {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    width: 90%;
+    padding: .6rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #E5D3B3;
+    color: gray;
+  }
+
+  label
+  {
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  select
+  {
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 94%;
+    padding: .4rem;
+    border: none;
+    background-color: #E5D3B3;
+    color: gray;
+  }
+
+  .normal-indention
+  {
+    margin-left: 1%;
+  }
+
+  body
+  {
+    font-family: sans-serif;
+    margin-top: 3%;
+    color: white;
+    background: #E5D3B3;
+  }
+
+  .no-border 
+  {
+    border: none;
+  }
+
+  .padding-custom
+  {
+    padding: 2%;
+  }
+
+  #signup-form-main
+  {
+    margin-top: 5%;
+  }
+
+  #register-button
+  {
+    margin-left: 2.5%;
+    width: 93%;
+    padding: 1.2%;
+    color: white;
+    border: none;
+    background: black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+  #register-button:hover
+  {
+    box-shadow: 1px 1px 2px 2px gray;
+  }
+  
+  #login-checkbox
+  {
+    position: absolute;
+    left: -10%;
+  }
+
+  #sign-up-form
+  {
+    margin-left: 40%;
+    font-size: 2.7rem;
+    color: black;
+  }
