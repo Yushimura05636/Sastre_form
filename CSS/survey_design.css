@@ -43,6 +43,7 @@
     background: #E5D3B3;
     color: gray;
     border: none;
+    border-bottom: 1px solid gray;
   }
 
   .normal-indention
